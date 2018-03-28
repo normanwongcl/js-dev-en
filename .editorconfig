@@ -6,6 +6,6 @@ indent_size = 3
 end_of_line = lf
 charset = utf-8
 
-[*.{js,python}]
+[*.{js,py}]
 trim_trailing_whitespace = true
 insert_final_newline = true

@@ -1,2 +1,2 @@
-# js-dev-en
-Javascript development environment
+# Javascript development environment
+Learning how to build a web starter kit

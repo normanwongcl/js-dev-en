@@ -9,7 +9,7 @@
     "lint:watch" : "npm run lint -- --watch",
     "open:src": "babel-node buildScripts/srcServer.js",
     "security-check": "nsp check",
-    "test": "mocha --reporter nyan buildScripts/testSetup.js \"src/**/*.test.js\"",
+    "test": "mocha --reporter progress buildScripts/testSetup.js \"src/**/*.test.js\"",
     "test:watch": "npm run test -- --watch"
   },
   "author": "Cory House",

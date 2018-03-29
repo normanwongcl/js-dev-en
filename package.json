@@ -8,7 +8,8 @@
     "lint": "esw webpack.config.* src buildScripts --color",
     "lint:watch" : "npm run lint -- --watch",
     "open:src": "babel-node buildScripts/srcServer.js",
-    "security-check": "nsp check"
+    "security-check": "nsp check",
+    "test": "mocha --reporter nyan buildScripts/testSetup.js \"src/**/*.test.js\""
   },
   "author": "Cory House",
   "license": "MIT",

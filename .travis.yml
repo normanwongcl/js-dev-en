@@ -2,5 +2,9 @@ language: node_js
 node_js:
    - "9"
 deploy:
-   dockerhub:
+   provider: dockerhub
+   commands:
+      - DOCKER_HUB_TRIGGER
+   on:
       branch: master
+      repo: Klezca/js-dev-en

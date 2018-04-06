@@ -3,6 +3,7 @@ node_js:
    - "9"
 deploy:
   provider: script
-  script: bash docker_push
+  skip_cleanup: true
+  script: bash docker_push.sh
   on:
     branch: master

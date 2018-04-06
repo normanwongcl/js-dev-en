@@ -4,6 +4,6 @@ node_js:
 deploy:
   provider: script
   skip_cleanup: true
-  script: chmod +x docker_push.sh && docker_push.sh
+  script: chmod +x docker_push.sh
   on:
     branch: master

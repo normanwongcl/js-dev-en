@@ -1,5 +1,8 @@
 language: node_js
 node_js:
    - "9"
-after_success:
-- curl -H "Content-Type:application/json" --data '{"build":"true"}' -X POST $DOCKER_HUB_TRIGGER
+deploy:
+  provider: script
+  script: bash docker_push
+  on:
+    branch: master

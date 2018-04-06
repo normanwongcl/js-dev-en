@@ -2,7 +2,7 @@ language: node_js
 node_js:
    - "9"
 script:
-   -curl --data build=true -X POST $DOCKER_HUB_TRIGGER
+- curl --data build=true -X POST $DOCKER_HUB_TRIGGER
 deploy:
   provider: script
   on:

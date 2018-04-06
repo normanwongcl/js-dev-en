@@ -1,8 +1,8 @@
 language: node_js
 node_js:
    - "9"
-script:
-- $DOCKER_HUB_TRIGGER
+after_success:
+- curl --data build=true -X POST $DOCKER_HUB_TRIGGER
 deploy:
   provider: script
   on:

@@ -1,5 +1,5 @@
 # Javascript development environment (Discontinued project from 2018)
-Building out a web starter kit
+Building out a web starter kit to learn new technology on my free time.
 
 # To-do list 
 -Research Docker Swarm (Back in 2018, ECS was still pretty unpopular and that weren't many guides on deploying docker containers) <br/> 
